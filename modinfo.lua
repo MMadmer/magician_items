@@ -14,8 +14,8 @@ reign_of_giants_compatible = true
 shipwrecked_compatible = true
 hamlet_compatible = true
 
---icon_atlas = "modicon.xml"
---icon = "modicon.tex"
+icon_atlas = "preview.xml"
+icon = "preview.tex"
 
 local alpha = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"}
 local KEY_A = 97

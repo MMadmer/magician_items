@@ -39,7 +39,6 @@ PrefabFiles =
 Assets =
 {
 	Asset("ATLAS", "images/inventoryimages/tophat_magician.xml"),
-	Asset("ATLAS", "images/inventoryimages/storeroom.xml"),
 	Asset("ATLAS", "images/inventoryimages/magician_chest.xml"),
 	Asset("ATLAS", "minimap/magician_chest.xml"),
 }
@@ -80,5 +79,6 @@ local function updatestoreroom(inst)
 	inst.components.container.widgetanimbuild = "ui_chest_4x5"
 end
 AddPrefabPostInit("magician_chest", updatestoreroom)
+AddPrefabPostInit("tophat_magician", updatestoreroom)
 
 modimport "world/general_world.lua"
