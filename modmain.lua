@@ -26,6 +26,8 @@ TUNING.GLOBAL_UTILS =
 	DIMENSIONS = 
 	{
 		-- Minimum dimensions for game working 1
+		-- Check mod items to find out how to connect your container
+		-- Danger with connected container destruction(can loose items under certain conditions)
 		"shadow",
 	}
 }

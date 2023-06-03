@@ -1,11 +1,11 @@
-name = "Magician's items"
+name = "Dimension mechanic items"
 description = [[
 This mode adds new dimension containers mechanic like in DST.
 Place your items in a vault and retrieve from another anywhere 
 on the map!
 ]]
 author = "Madmer"
-version = "1.0"
+version = "1.01"
 forumthread = ""
 api_version = 6
 

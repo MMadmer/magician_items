@@ -92,9 +92,12 @@ local function fn(Sim)
 
 	inst:AddComponent("lootdropper")
 	
+	-- Dimension connecting
+	----------------------------------------------
 	-- After shared always dimension
 	inst:AddTag("shared")
 	inst:AddTag(TUNING.GLOBAL_UTILS.DIMENSIONS[1])
+	----------------------------------------------
 	
 	if TUNING.DESTRUCTION then
 		inst:AddComponent("workable")

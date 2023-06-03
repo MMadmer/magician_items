@@ -83,15 +83,20 @@ local function fn()
     inst.components.equippable:SetOnEquip( OnEquip )
     inst.components.equippable:SetOnUnequip( OnUnequip )
 	
-	-- Container
-	inst:AddTag("shared")
-	inst:AddTag(TUNING.GLOBAL_UTILS.DIMENSIONS[1])
 	
+	-- Container
 	inst:AddComponent("container")
 	inst.components.container:SetNumSlots(#slotpos)
 
 	inst.components.container.widgetslotpos = slotpos
 	inst.components.container.side_align_tip = 160
+	
+	-- Dimension connecting
+	----------------------------------------------
+	-- After shared always dimension
+	inst:AddTag("shared")
+	inst:AddTag(TUNING.GLOBAL_UTILS.DIMENSIONS[1])
+	----------------------------------------------
 	
     return inst
 end
