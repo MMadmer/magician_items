@@ -1,6 +1,6 @@
-name = "(local)Magician's items"
+name = "Magician's items"
 description = [[
-This mode add new dimension containers mechanic like in DST.
+This mode adds new dimension containers mechanic like in DST.
 Place your items in a vault and retrieve from another anywhere 
 on the map!
 ]]
